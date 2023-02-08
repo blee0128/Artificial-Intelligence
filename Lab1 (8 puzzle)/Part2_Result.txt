@@ -1,0 +1,149 @@
+S1.txt BFS
+Total nodes generated: 97527
+Total time taken: 433.93291687965393seconds
+Path Length: 24
+Path: UURDDRULLDRRULLURRDLLDRR
+
+S1.txt IDS
+Total nodes generated: <<??>>
+Total time taken: > 15 min
+Path length: Timed out.
+Path: Timed Out.
+
+S1.txt h1
+Total nodes generated: 13131
+Total time taken: 42.785040855407715seconds
+Path Length: 24
+Path: UURDDRULLDRRULLURRDLLDRR
+
+S1.txt h2
+Total nodes generated: 2025
+Total time taken: 1.0627686977386475seconds
+Path Length: 24
+Path: UURDDRULLDRRULLURRDLLDRR
+
+S1.txt h3
+Total nodes generated: 10837
+Total time taken: 23.558265209197998seconds
+Path Length: 24
+Path: UURDDRULLDRRULLURRDLLDRR
+
+S2.txt BFS
+Total nodes generated: 29053
+Total time taken: 59.98284101486206seconds
+Path Length: 20
+Path: UURRDLDRULLURRDLLDRR
+
+S2.txt IDS
+Total nodes generated: <<??>>
+Total time taken: > 15 min
+Path length: Timed out.
+Path: Timed Out.
+
+S2.txt h1
+Total nodes generated: 1970
+Total time taken: 0.8809030055999756seconds
+Path Length: 20
+Path: UURRDLDRULLURRDLLDRR
+
+S2.txt h2
+Total nodes generated: 196
+Total time taken: 0.020082950592041016seconds
+Path Length: 20
+Path: UURRDLDRULLURRDLLDRR
+
+S2.txt h3
+Total nodes generated: 1581
+Total time taken: 0.45873188972473145seconds
+Path Length: 20
+Path: UURRDLDRULLURRDLLDRR
+
+S3.txt BFS
+The inputted puzzle is not solvable
+7 5 2
+6 3 1
+4 8 _
+
+S3.txt IDS
+The inputted puzzle is not solvable
+7 5 2
+6 3 1
+4 8 _
+
+S3.txt h1
+The inputted puzzle is not solvable
+7 5 2
+6 3 1
+4 8 _
+
+S3.txt h2
+The inputted puzzle is not solvable
+7 5 2
+6 3 1
+4 8 _
+
+S3.txt h3
+The inputted puzzle is not solvable
+7 5 2
+6 3 1
+4 8 _
+
+S4.txt BFS
+Total nodes generated: 181347
+Total time taken: 861.048378944397seconds
+Path Length: 31
+Path: UULDDRRUULDLDRRUULDLDRRUULLDDRR
+
+S4.txt IDS
+Total nodes generated: <<??>>
+Total time taken: > 15 min
+Path length: Timed out.
+Path: Timed Out.
+
+S4.txt h1
+Total nodes generated: <<??>>
+Total time taken: > 15 min
+Path length: Timed out.
+Path: Timed Out.
+
+S4.txt h2
+Total nodes generated: 17489
+Total time taken: 97.9846739768982seconds
+Path Length: 31
+Path: RUULLDDRRULLDRRUULDRULLDDRRULDR
+
+S4.txt h3
+Total nodes generated: <<??>>
+Total time taken: > 15 min
+Path length: Timed out.
+Path: Timed Out.
+
+S5.txt BFS
+Total nodes generated: 54
+Total time taken: 0.0012421607971191406seconds
+Path Length: 6
+Path: LURDDR
+
+S5.txt IDS
+Total nodes generated: 88
+Total time taken: 0.0041351318359375seconds
+Path Length: 6
+Path: LURDDR
+
+S5.txt h1
+Total nodes generated: 9
+Total time taken: 0.0003368854522705078seconds
+Path Length: 6
+Path: LURDDR
+
+S5.txt h2
+Total nodes generated: 10
+Total time taken: 0.0004620552062988281seconds
+Path Length: 6
+Path: LURDDR
+
+S5.txt h3
+Total nodes generated: 10
+Total time taken: 0.00037789344787597656seconds
+Path Length: 6
+Path: LURDDR

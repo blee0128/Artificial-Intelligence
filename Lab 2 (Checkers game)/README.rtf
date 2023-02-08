@@ -1,0 +1,97 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red153\green168\blue186;\red32\green32\blue32;}
+{\*\expandedcolortbl;;\csgenericrgb\c60000\c65882\c72941;\csgenericrgb\c12549\c12549\c12549;}
+\margl1440\margr1440\vieww12500\viewh17180\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf0 AI Lab 2
+\fs24 \
+Benjamin Yen Kit Lee\
+\
+
+\fs36 Program information
+\fs24 \
+Language: Python\
+Modules: time, copy, random, bumpy\
+\
+
+\fs36 Description
+\fs24 \
+1. Implement the AI vs AI to be quick, but I only focus on AI vs AI, but there are other selections, mainly used to test my codes. There are two user, player 1 = \'93o\'94 and player 2=\'93x\'94\
+\
+2. If \'93o\'94 becomes king, the representation will turn to \'93W\'94. If \'93x\'94 becomes king, the representation will turn to \'93V\'94\
+\
+3. There are two different functions for moving, a simple_move function and a jump function, simple move will moves in front, and a jump which will jump over its opponent. If there is a jump, only the jump option will be given and u cannot perform a simple move. A representation of the moves will be displayed below.\
+\
+Available moves: Select 0 to 9\
+0 [(1, 0), (2, 1)]\
+1 [(1, 6), (2, 5)]\
+2 [(2, 3), (3, 2)]\
+3 [(2, 7), (3, 6)]\
+4 [(3, 4), (4, 3)]\
+5 [(3, 4), (4, 5)]\
+6 [(5, 2), (6, 1)]\
+7 [(5, 2), (6, 3)]\
+8 [(5, 4), (6, 3)]\
+9 [(5, 4), (6, 5)]\
+selected move: [(1, 6), (2, 5)]\
+\
+4. The multi jump will be perform in the get_all_moves. After getting all the jumps in the get_all moves function. The legal jump moves will be put into a queue and will check if it can perform another jump after reaching the new location.\
+For example with the representation below,  [(7, 4), (5, 2)] will be stored in a list of moves and this will be added to the queue where (5,2) coordinate will be run with the jump function to see if there are any potential new jump. If so, the new jump coordinate will be append into the list and stored in the list of moves. After that, there will be [(7, 4), (5, 2)] and [(7, 4), (5, 2), (3, 4)] in the list of moves, where we will need to remove [(7, 4), (5, 2)] from the list of legal moves.\
+\
+Available moves: Select 0 to 1\
+0 [(6, 7), (4, 5)]\
+1 [(7, 4), (5, 2), (3, 4)]\
+selected move: [(7, 4), (5, 2), (3, 4)]\
+\
+5. Running the code:\
+a. Run lab2_code.py\
+\
+Choose 1 for player vs AI\
+Choose 2 for AI vs AI\
+Choose 3 for player vs player\
+Your choice? \
+\
+b. Choose 2, I use 1 and 3 for testing codes. But you can still run them, just the representation will not be as good as choosing 2.\
+\
+c. You will see the 2 AI playing against each other and the moves they selected. At the end, you will get average decision time for each AI player\
+\
+d. When running the code, line 891 and 892 is how to run the code. Create the object and call the play_game function\
+	
+\f1\fs26 \cf2 \cb3 newgame = Checkers_Game()\
+	newgame.play_game()\
+
+\f0\fs24 \cf0 \cb1  	\
+\
+
+\fs36 Functions\
+
+\fs24 Modified the alpha_beta_cutoff_search function\
+Modified query player function\
+Created Checkers Game class with functions same as Game class\
+Additional functions added to the Checkers Games:\
+	compute_utility function\
+	milli_time function\
+	simple_move function\
+	jump function\
+	get_all_moves function\
+	action function(different from the actions function)\
+\
+Question 2\
+Evaluation function:\
+	The default is using utility function given similar to the example games. However, the evaluation function will be 	in line 329 to line 371 in the lab2_code.py. Evaluation function 1 will give a higher score if the piece becomes a 	king. Evaluation function 2 will give a higher score if there are more pieces than the opponent.\
+\
+Question 3\
+Move Generator function:\
+	The get_all_moves function will implement simple_move function and jump function give us a list of all legal 	moves at that state.\
+\
+Question 5\
+Main function:\
+	My main function is basically my play_game function.\
+\
+\
+
+\fs36 Reference
+\fs24 \
+I reference the AIMA code using only the games.py code}

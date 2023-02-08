@@ -1,0 +1,107 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh16580\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 README\
+\
+
+\fs36 lab1.py
+\fs24 \
+- This file contains two function, def read_file and def convert. The read_file function reads a file and return a tuple. The convert function converts an array into a string.\
+\
+- There are two section to this file, the first section is taking input form the terminal, the second section is running an algorithm on all the files in the folder\
+\
+
+\fs28 Section 1
+\fs24 \
+- line 38 and line 39 are tow inputs that will be received by the terminal as input for fPath and alg. \
+\
+- file_path(line 38) is the path to the .txt file \
+\
+- alg(line 39) is the algorithm that you intend to use\
+\
+- What is needed in the terminal\
+% python3 lab1.py file_path alg\
+\
+Basically python3 with a space, give the lab1.py to execute the code, add another space and give the file path to the S1.txt file, with a space and algorithm you want. In this case my \
+file_path = /Users/benjaminlee/Desktop/572Lab/Part2/S1.txt\
+alg = h1.\
+% python3 lab1.py /Users/benjaminlee/Desktop/572Lab/Part2/S1.txt h1\
+\
+- To run the code, you will need to specify the filePath to the folder and the algorithm you intend to use in fPath and alg. The for loop will enter the folder and enumerate all the file and run the specific algorithm given on all the file. On the output, you will see an example as shown below. It gives an illustration of the file path with the algorithm being used, and also the information of the execution.\
+\
+h1\
+Total nodes generated: 13131\
+Total time taken: 31.498378038406372seconds\
+Path Length: 24\
+Path: UURDDRULLDRRULLURRDLLDRR\
+\
+Line 41 and line 42 will allow you to physically enter the file_path and alg to run in python. For this to work, you will need to comment line 38 and line 39.\
+\
+\
+\
+
+\fs28 Section 2
+\fs24 \
+For running every file in a folder, you can look at line 200 onwards, you will need to give the file path to the folder which you wish to read the .txt file. There are two part to enter the file path. There is also a parameter which you can set you algorithm, which is alg. The for loop will enter every file and run all files in one algorithm. You will need to manually change the algorithm, in this case will be simple, you will need to change it 5 times to run all 5 algorithm. \
+\
+\
+\
+\
+\
+
+\fs36 myalgo.py
+\fs24 \
+- This file contains all the functions and classes obtained from the search.py, search.ipynb and utils.py.\
+\
+- Most codes are left as is the original file. Some functions were slightly modified as listed below. There will also be comments in the file that state the changes made.\
+	- def breadth_first_graph_search, def depth_limited_search, def best_first_graph_search\
+		- the total time was calculated inside the algorithm\
+		- there is also printed statement that was added to show the time taken and total nodes 		  generated \
+		- if the time exceeds 15 mins(900 seconds), exit the function and return printed statement\
+	- def recursive_dls\
+		- additional codes were added to remove any cycle back to its ancestor\
+		- an improvement for the IDS algorithm as discussed in class\
+	- def h3_heuristic\
+		- an algorithm being made from the manhattan method with some modification\
+		-  if Manhattan score return is odd, the score will be (score + 1) / 2, or else score /2\
+\
+\
+
+\fs36 572 Part 3 - Total nodes generated.pdf
+\fs24 \
+- This pdf file contains all the total nodes generated from Part 3.\
+\
+\
+
+\fs36 572 Part 3 - Total time.pdf
+\fs24 \
+- This pdf file contains all the total time from Part 3.\
+\
+\
+
+\fs36 572 Part 3 Result.pdf
+\fs24 \
+- This file contains all the average total nodes generated and average time for all 5 algorithms in Part 3.\
+\
+\
+
+\fs36 Part2_Result.txt
+\fs24 \
+- This file contains all the results of 5 algorithms on each file.\
+\
+\
+
+\fs36 Part 3 results folder
+\fs24 \
+- This file contains all the Part 3 results.\
+\
+\
+\
+\
+\
+\
+}

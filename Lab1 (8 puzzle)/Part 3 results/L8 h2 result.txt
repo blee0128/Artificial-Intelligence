@@ -1,0 +1,160 @@
+/Users/benjaminlee/Desktop/572Lab/Part3/L8/258.txt
+h2
+Total nodes generated: 17
+Total time taken: 0.0009181499481201172seconds
+Path Length: 8
+Path: LLDRURDD
+
+
+/Users/benjaminlee/Desktop/572Lab/Part3/L8/160.txt
+h2
+Total nodes generated: 13
+Total time taken: 0.0005340576171875seconds
+Path Length: 8
+Path: DRDLURDR
+
+
+/Users/benjaminlee/Desktop/572Lab/Part3/L8/164.txt
+h2
+Total nodes generated: 9
+Total time taken: 0.00028014183044433594seconds
+Path Length: 8
+Path: UULLDDRR
+
+
+/Users/benjaminlee/Desktop/572Lab/Part3/L8/158.txt
+h2
+Total nodes generated: 9
+Total time taken: 0.0003209114074707031seconds
+Path Length: 8
+Path: RULDLDRR
+
+
+/Users/benjaminlee/Desktop/572Lab/Part3/L8/238.txt
+h2
+Total nodes generated: 11
+Total time taken: 0.00044798851013183594seconds
+Path Length: 8
+Path: LURULDRD
+
+
+/Users/benjaminlee/Desktop/572Lab/Part3/L8/210.txt
+h2
+Total nodes generated: 13
+Total time taken: 0.0004239082336425781seconds
+Path Length: 8
+Path: LURULDDR
+
+
+/Users/benjaminlee/Desktop/572Lab/Part3/L8/198.txt
+h2
+Total nodes generated: 14
+Total time taken: 0.00048279762268066406seconds
+Path Length: 8
+Path: LDDRULDR
+
+
+/Users/benjaminlee/Desktop/572Lab/Part3/L8/239.txt
+h2
+Total nodes generated: 12
+Total time taken: 0.00047707557678222656seconds
+Path Length: 8
+Path: RRUULDRD
+
+
+/Users/benjaminlee/Desktop/572Lab/Part3/L8/234.txt
+h2
+Total nodes generated: 11
+Total time taken: 0.0004010200500488281seconds
+Path Length: 8
+Path: DRRULDRD
+
+
+/Users/benjaminlee/Desktop/572Lab/Part3/L8/208.txt
+h2
+Total nodes generated: 11
+Total time taken: 0.0004298686981201172seconds
+Path Length: 8
+Path: RDRULDDR
+
+
+/Users/benjaminlee/Desktop/572Lab/Part3/L8/195.txt
+h2
+Total nodes generated: 11
+Total time taken: 0.0006210803985595703seconds
+Path Length: 8
+Path: DRDRULDR
+
+
+/Users/benjaminlee/Desktop/572Lab/Part3/L8/154.txt
+h2
+Total nodes generated: 8
+Total time taken: 0.0002949237823486328seconds
+Path Length: 8
+Path: RRULLDRR
+
+
+/Users/benjaminlee/Desktop/572Lab/Part3/L8/236.txt
+h2
+Total nodes generated: 17
+Total time taken: 0.0008611679077148438seconds
+Path Length: 8
+Path: RRDLURDD
+
+
+/Users/benjaminlee/Desktop/572Lab/Part3/L8/193.txt
+h2
+Total nodes generated: 10
+Total time taken: 0.0005440711975097656seconds
+Path Length: 8
+Path: LDRRULDR
+
+
+/Users/benjaminlee/Desktop/572Lab/Part3/L8/225.txt
+h2
+Total nodes generated: 19
+Total time taken: 0.0010521411895751953seconds
+Path Length: 8
+Path: ULDLURRD
+
+
+/Users/benjaminlee/Desktop/572Lab/Part3/L8/152.txt
+h2
+Total nodes generated: 9
+Total time taken: 0.0005278587341308594seconds
+Path Length: 8
+Path: RRDLLDRR
+
+
+/Users/benjaminlee/Desktop/572Lab/Part3/L8/224.txt
+h2
+Total nodes generated: 13
+Total time taken: 0.0009171962738037109seconds
+Path Length: 8
+Path: DLDLURRD
+
+
+/Users/benjaminlee/Desktop/572Lab/Part3/L8/256.txt
+h2
+Total nodes generated: 10
+Total time taken: 0.0007581710815429688seconds
+Path Length: 8
+Path: LLUURRDD
+
+
+/Users/benjaminlee/Desktop/572Lab/Part3/L8/250.txt
+h2
+Total nodes generated: 12
+Total time taken: 0.0008692741394042969seconds
+Path Length: 8
+Path: DLLURRDD
+
+
+/Users/benjaminlee/Desktop/572Lab/Part3/L8/253.txt
+h2
+Total nodes generated: 21
+Total time taken: 0.0013058185577392578seconds
+Path Length: 8
+Path: LDLURRDD
+
+

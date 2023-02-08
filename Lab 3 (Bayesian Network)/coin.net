@@ -1,0 +1,279 @@
+net
+{
+	propagationenginegenerator1791944048146838126L = "edu.ucla.belief.approx.BeliefPropagationSettings@6639fdd";
+	recoveryenginegenerator6944530267470113528l = "edu.ucla.util.SettingsImpl@533d57d8";
+	jenginegenerator6060830225489488864L = "edu.ucla.belief.inference.JoinTreeSettings@5f091e7c";
+	node_size = (130.0 55.0);
+}
+
+node variable6
+{
+	states = ("Unbiased_Coin" "Biased_Coin" );
+	position = (1122 -74);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "true";
+	ID = "variable6";
+	label = "Flip7";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node variable1
+{
+	states = ("Unbiased_Coin" "Biased_Coin" );
+	position = (220 -72);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "true";
+	ID = "variable1";
+	label = "Flip2";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node variable0
+{
+	states = ("Unbiased_Coin" "Biased_Coin" );
+	position = (25 -73);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "true";
+	ID = "variable0";
+	label = "Flip1";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node variable5
+{
+	states = ("Unbiased_Coin" "Biased_Coin" );
+	position = (944 -76);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "true";
+	ID = "variable5";
+	label = "Flip6";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node variable11
+{
+	states = ("Head" "Tail" );
+	position = (591 -201);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "false";
+	ID = "variable11";
+	label = "Result4";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node variable4
+{
+	states = ("Unbiased_Coin" "Biased_Coin" );
+	position = (778 -76);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "true";
+	ID = "variable4";
+	label = "Flip5";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node variable9
+{
+	states = ("Head" "Tail" );
+	position = (219 -199);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "false";
+	ID = "variable9";
+	label = "Result2";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node variable13
+{
+	states = ("Head" "Tail" );
+	position = (943 -199);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "false";
+	ID = "variable13";
+	label = "Result6";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node variable12
+{
+	states = ("Head" "Tail" );
+	position = (777 -201);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "false";
+	ID = "variable12";
+	label = "Result5";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node variable15
+{
+	states = ("Head" "Tail" );
+	position = (1294 -198);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "false";
+	ID = "variable15";
+	label = "Result8";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node variable10
+{
+	states = ("Head" "Tail" );
+	position = (401 -199);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "false";
+	ID = "variable10";
+	label = "Result3";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node variable3
+{
+	states = ("Unbiased_Coin" "Biased_Coin" );
+	position = (592 -76);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "true";
+	ID = "variable3";
+	label = "Flip4";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node variable14
+{
+	states = ("Head" "Tail" );
+	position = (1121 -199);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "false";
+	ID = "variable14";
+	label = "Result7";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node variable7
+{
+	states = ("Unbiased_Coin" "Biased_Coin" );
+	position = (1294 -74);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "true";
+	ID = "variable7";
+	label = "Flip8";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node variable2
+{
+	states = ("Unbiased_Coin" "Biased_Coin" );
+	position = (402 -74);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "true";
+	ID = "variable2";
+	label = "Flip3";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node variable8
+{
+	states = ("Head" "Tail" );
+	position = (25 -198);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "false";
+	ID = "variable8";
+	label = "Result1";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+potential ( variable6 | variable5 )
+{
+	data = ((	0.6	0.4	)
+		(	0.0	1.0	));
+}
+potential ( variable1 | variable0 )
+{
+	data = ((	0.6	0.4	)
+		(	0.0	1.0	));
+}
+potential ( variable0 | )
+{
+	data = (	1.0	0.0	);
+}
+potential ( variable5 | variable4 )
+{
+	data = ((	0.6	0.4	)
+		(	0.0	1.0	));
+}
+potential ( variable11 | variable3 )
+{
+	data = ((	0.5	0.5	)
+		(	0.7	0.3	));
+}
+potential ( variable4 | variable3 )
+{
+	data = ((	0.6	0.4	)
+		(	0.0	1.0	));
+}
+potential ( variable9 | variable1 )
+{
+	data = ((	0.5	0.5	)
+		(	0.7	0.3	));
+}
+potential ( variable13 | variable5 )
+{
+	data = ((	0.5	0.5	)
+		(	0.7	0.3	));
+}
+potential ( variable12 | variable4 )
+{
+	data = ((	0.5	0.5	)
+		(	0.7	0.3	));
+}
+potential ( variable15 | variable7 )
+{
+	data = ((	0.5	0.5	)
+		(	0.7	0.3	));
+}
+potential ( variable10 | variable2 )
+{
+	data = ((	0.5	0.5	)
+		(	0.7	0.3	));
+}
+potential ( variable3 | variable2 )
+{
+	data = ((	0.6	0.4	)
+		(	0.0	1.0	));
+}
+potential ( variable14 | variable6 )
+{
+	data = ((	0.5	0.5	)
+		(	0.7	0.3	));
+}
+potential ( variable7 | variable6 )
+{
+	data = ((	0.6	0.4	)
+		(	0.0	1.0	));
+}
+potential ( variable2 | variable1 )
+{
+	data = ((	0.6	0.4	)
+		(	0.0	1.0	));
+}
+potential ( variable8 | variable0 )
+{
+	data = ((	0.5	0.5	)
+		(	0.7	0.3	));
+}
